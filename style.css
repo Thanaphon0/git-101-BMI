@@ -1,0 +1,94 @@
+.card {
+    border: 5px solid rgb(0, 254, 178);
+    background-color: rgb(35, 243, 122);
+    box-shadow: 10px 15px 20px rgba(13, 255, 211, 0.51);
+    border-radius: 50px;
+    width: 350px;
+    height: 320px;
+    text-align: center;
+    padding: 4px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.box {
+    font-size: 20px;
+    color: rgb(13, 0, 255);
+    border: 5px solid rgb(0, 254, 178);
+    background-color: rgb(35, 243, 122);
+    box-shadow: 10px 15px 20px rgba(13, 255, 211, 0.51);
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+.link{
+    border: 5px solid rgb(0, 254, 178);
+    background-color: rgb(35, 243, 122);
+    box-shadow: 10px 15px 20px rgba(13, 255, 211, 0.51);
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    top: 550px;
+    left: 265px;
+}
+#heightEor {
+    color: red;
+
+}
+
+#weightEor {
+    color: red;
+
+}
+
+.heads {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+body {
+    min-width: 100hv;
+    background: linear-gradient(#f2ff00, #fff, #fff);
+}
+
+#height {
+    margin-bottom: 5px;
+}
+
+#weight {
+    margin-bottom: 5px;
+}
+
+#btn {
+    margin-top: 5px;
+    cursor: pointer;
+}
+.flexbox{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    left: 1000px;
+    bottom: 500px;
+}
+.textbox{
+    
+    border: 3px solid green;
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgb(10, 255, 206) ;
+    margin-bottom: 10px;
+    
+}
+.textinbox{
+    padding: 5px;
+    padding-left:10px ;
+}
