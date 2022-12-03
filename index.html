@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BMI หรือ เครื่องคำนวณหาค่าดัชนีมวลกาย</title>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="card">
+		<h1>หาค่าBMI</h1>
+        
+		<form>
+			<p>
+				<label for="height"><b>ความสูง(เมตร)</b></label>
+			</p>
+			<p>
+				<input type="text" id="height" name="height"><br><span id="heightEor"></span>
+			</p>
+			<p>
+				<label for="weight"><b>น้ำหนัก(กิโลกรัม)</b></label>
+			</p>
+			<p>
+				<input type="text" id="weight" name="weight"><br><span id="weightEor"></span>
+			</p>
+
+			<button id="btn" type="button">คำนวน</button>
+		</form>
+	</div>
+	<div id="Result" class="box">ค่า BMI</div>
+	<div class="link"><a
+			href="https://www.lovefitt.com/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%93%E0%B8%AB%E0%B8%B2%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A2-bmi/">
+			!!อ้างอิง คลิกเลย</a>
+	</div>
+	<div class="flexbox">
+		<div class="textbox">
+			<div class="textinbox">
+				<h3>ค่า BMI น้อยกว่า 18.5 </h3>
+				<h4>แสดงถึงอยู่ในเกณฑ์น้ำหนักต่ำกว่าเกณฑ์</h4>
+			</div>
+		</div>
+		<div class="textbox">
+			<div class="textinbox">
+				<h3>ค่า BMI 18.5 - 22.90</h3>
+				<h4>แสดงถึงอยู่ในเกณฑ์สมส่วน</h4>
+			</div>
+		</div>
+		<div class="textbox">
+			<div class="textinbox">
+				<h3>ค่า BMI 23 - 24.90</h3>
+				<h4>แสดงถึงอยู่ในเกณฑ์น้ำหนักเกิน</h4>
+			</div>
+		</div>
+		<div class="textbox">
+			<div class="textinbox">
+				<h3>ค่า BMI 25 - 29.90</h3>
+				<h4>แสดงถึงอยู่ในเกณฑ์โรคอ้วน</h4>
+			</div>
+		</div>
+		<div class="textbox">
+			<div class="textinbox">
+				<h3>ค่า BMI >30 ขึ้นไป</h3>
+				<h4>แสดงถึงอยู่ในเกณฑ์โรคอ้วนอันตราย</h4>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
